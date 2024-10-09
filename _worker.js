@@ -13,10 +13,6 @@ let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='
 
 // v2board api environment variables (optional) deprecated, please use planetscale.com instead
 
-if (!isValidUUID(userID)) {
-	return new Response(e.toString('uuid is invalid'));;
-}
-
 export default {
 	/**
 	 * @param {import("@cloudflare/workers-types").Request} request
